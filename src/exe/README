@@ -1,3 +1,4 @@
-Contains code, that is used throughout the project, and not specific to a executable.
+Contains code that build executables, using library code.
 
-E.G. Color conversion on an image.
+E.G. a program that takes an imagepath as input, converting it to a black-white image,
+and outputting it to another path.
