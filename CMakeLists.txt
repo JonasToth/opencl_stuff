@@ -9,6 +9,8 @@ add_definitions("--std=c++14")
 #
 # it provides common build targets
 
+include(CTest)
+
 add_subdirectory(src)
 add_subdirectory(test)
 add_subdirectory(benchmark)
