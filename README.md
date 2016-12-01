@@ -22,6 +22,8 @@ I am running ubuntu 16.04
 ### packets
 - build-essential
 - cmake
+- libgtest-dev # googles testing framework
+    - see this article [Erik Smistad](https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/)
 
 ### libraries
 - [GSL](https://github.com/Microsoft/GSL) as system library (IMPORTANT, CMake won't check for it!)
