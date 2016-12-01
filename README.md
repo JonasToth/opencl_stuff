@@ -19,6 +19,11 @@ This list is not comprehensive, but i used these sites and found them helpfull.
 
 This is a list of tools i had to install. This is not comprehensive, but might give you nice hints :)
 I am running ubuntu 16.04
-
+### packets
 - build-essential
 - cmake
+
+### libraries
+- [GSL](https://github.com/Microsoft/GSL) as system library (IMPORTANT, CMake won't check for it!)
+- [tiny-jpeg](https://github.com/serge-rgb/TinyJPEG) thats in the repo
+- [stb-image](https://github.com/nothings/stb/blob/master/stb_image.h) in the repo as well
