@@ -4,5 +4,5 @@
 
 
 # SUBDIR-MARKER-START
-
+add_test(./image_io/test_image_load.cpp)
 # SUBDIR-MARKER-END
