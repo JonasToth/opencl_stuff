@@ -10,8 +10,17 @@ int main()
     // ======================== Load over constructor ====================================
     try {
         auto img = Image("test_load.jpg");
-    }
-    catch(std::runtime_error& e) {
+        std::cout << "Success from constructor!" << std::endl;
+
+        if(img.width() != 172) {
+            std::cout << "Width is wrong" << std::endl;
+            error_code = 1;
+        }
+        if(img.height() != 178) {
+            std::cout << "Height is wrong" << std::endl;
+            error_code = 1;
+        }
+    } catch(std::runtime_error& e) {
         std::cout << "Failed to load image!" << std::endl;
         std::cout << e.what() << std::endl;
         error_code = 1;
@@ -22,8 +31,17 @@ int main()
     try {
         auto img = Image();
         img.load("test_load.jpg");
-    }
-    catch(std::runtime_error& e) {
+        std::cout << "Success from member function!" << std::endl;
+
+        if(img.width() != 172) {
+            std::cout << "Width is wrong" << std::endl;
+            error_code = 1;
+        }
+        if(img.height() != 178) {
+            std::cout << "Height is wrong" << std::endl;
+            error_code = 1;
+        }
+    } catch(std::runtime_error& e) {
         std::cout << "Failed to load image over member function!" << std::endl;
         std::cout << e.what() << std::endl;
         error_code = 1;
