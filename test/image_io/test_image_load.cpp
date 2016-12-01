@@ -1,4 +1,5 @@
 #include "image_io/Image.h"
+#include <iostream>
 
 /// testload of an jpg
 int main()
@@ -8,7 +9,7 @@ int main()
 
     // ======================== Load over constructor ====================================
     try {
-        auto img1 = Image("test_load.jpg");
+        auto img = Image("test_load.jpg");
     }
     catch(std::runtime_error& e) {
         std::cout << "Failed to load image!" << std::endl;
@@ -19,7 +20,8 @@ int main()
 
     // ====================== Load with member function ==================================
     try {
-
+        auto img = Image();
+        img.load("test_load.jpg");
     }
     catch(std::runtime_error& e) {
         std::cout << "Failed to load image over member function!" << std::endl;

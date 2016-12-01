@@ -4,6 +4,7 @@
 
 #include <string>
 #include <vector>
+#include <gsl/gsl_byte>
 
 
 class Image
@@ -41,7 +42,7 @@ public:
 
 
 private:
-    std::vector<byte> _raw_data; ///< byte data, representing the image pixels
+    std::vector<gsl::byte> _raw_data; ///< byte data, representing the image pixels
 };
 
 #endif /* end of include guard: IMAGE_H_BH2ZALMC */
