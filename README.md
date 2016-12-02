@@ -25,6 +25,7 @@ I am running ubuntu 16.04
 - libgtest-dev # googles testing framework
     - see this article [Erik Smistad](https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/)
 - opencl runtime over packet manager
+    - [Generic OpenCL](https://askubuntu.com/questions/850281/opencl-on-ubuntu-16-04-sandy-bridge-cpu/850594)
 
 ### libraries
 - [GSL](https://github.com/Microsoft/GSL) as system library (IMPORTANT, CMake won't check for it!)
