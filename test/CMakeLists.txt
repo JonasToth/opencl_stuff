@@ -13,4 +13,5 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 # SUBDIR-MARKER-START
 add_subdirectory(image_io)
+add_subdirectory(color_conversion)
 # SUBDIR-MARKER-END
