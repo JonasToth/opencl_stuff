@@ -1,3 +1,4 @@
-Contains code, that is used throughout the project, and not specific to a executable.
+# Library Code for OpenCl
 
+Contains code, that is used throughout the project, and not specific to a executable.
 E.G. Color conversion on an image.
