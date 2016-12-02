@@ -24,8 +24,10 @@ I am running ubuntu 16.04
 - cmake
 - libgtest-dev # googles testing framework
     - see this article [Erik Smistad](https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/)
+- opencl runtime over packet manager
 
 ### libraries
 - [GSL](https://github.com/Microsoft/GSL) as system library (IMPORTANT, CMake won't check for it!)
 - [tiny-jpeg](https://github.com/serge-rgb/TinyJPEG) thats in the repo
 - [stb-image](https://github.com/nothings/stb/blob/master/stb_image.h) in the repo as well
+- [c++ Wrapper](https://www.khronos.org/registry/cl/api/2.1/cl.hpp) added to /usr/include/CL/
