@@ -12,7 +12,6 @@ target_link_libraries(black_white.x color_conversion image_io)
 add_executable(cl_info.x test_cl_info.cpp)
 target_link_libraries(cl_info.x ${GTEST_LIBRARIES} pthread)
 target_link_libraries(cl_info.x color_conversion OpenCL)
-
 # EXECUTABLE-MARKER-END
 
 # TEST-MARKER-START
