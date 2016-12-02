@@ -1,2 +1,10 @@
+#include <CL/cl.hpp>
+#include <iostream>
+#include <vector>
 
-int main() { return 0; }
+
+int main() { 
+    std::vector<cl::Platform> platforms;
+    cl::Platform::get(&platforms);
+    return 0; 
+}
